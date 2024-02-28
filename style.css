@@ -195,7 +195,7 @@ div[data-v-d1615be0] {
     grid-template-areas:
     'LABEL_NEEA_I  AVALUACIO_NEEA_EAP_I       PROFESSIONAL_ASSIGNAT_NEEA_I  PROFESSIONAL_ASSIGNAT_NEEA_I  PROFESSIONAL_ASSIGNAT_NEEA_I  NUM_SOLICITUD_EE_I'
     '.             ES_NEEA_I                  TIPUS_ESCOLARITZACIO_I        SENSE_BARRERES_I              SIEI_I                        SIAL_I'
-    '.             ACORD_NEEA_I               ID_MOTIU_NESE_I               ID_MOTIU_NESE_I               .                             DISTANCIES_I'
+    '.             ACORD_NEEA_I               ID_MOTIU_NESE_PPAL_I          ID_MOTIU_NESE_PPAL_I          .                             DISTANCIES_I'
     '.             CENTRE1_I                  ID_CENTRE_PROPOSAT1_I         ID_CENTRE_PROPOSAT1_I         ID_CENTRE_PROPOSAT1_I         DISTANCIA_CENTRE_PROPOSAT1_I'
     '.             CENTRE2_I                  ID_CENTRE_PROPOSAT2_I         ID_CENTRE_PROPOSAT2_I         ID_CENTRE_PROPOSAT2_I         DISTANCIA_CENTRE_PROPOSAT2_I'
     '.             CENTRE3_I                  ID_CENTRE_PROPOSAT3_I         ID_CENTRE_PROPOSAT3_I         ID_CENTRE_PROPOSAT3_I         DISTANCIA_CENTRE_PROPOSAT3_I'
@@ -205,7 +205,7 @@ div[data-v-d1615be0] {
     '.             .                          .                             RETENCIO_I                    CEEPSIR_I                     .'
     'LABEL_NEEA    AVALUACIO_NEEA_EAP         PROFESSIONAL_ASSIGNAT_NEEA    PROFESSIONAL_ASSIGNAT_NEEA    PROFESSIONAL_ASSIGNAT_NEEA    NUM_SOLICITUD_EE'
     '.             ES_NEEA                    TIPUS_ESCOLARITZACIO          SENSE_BARRERES                SIEI                          SIAL'
-    '.             ACORD_NEEA                 ID_MOTIU_NESE                 ID_MOTIU_NESE                 ID_MOTIU_NESE                 DISTANCIES'
+    '.             ACORD_NEEA                 ID_MOTIU_NESE_PPAL            ID_MOTIU_NESE_PPAL            ID_MOTIU_NESE_PPAL            DISTANCIES'
     '.             CENTRE1                    ID_CENTRE_PROPOSAT1Codi       ID_CENTRE_PROPOSAT1Nom        ID_CENTRE_PROPOSAT1Nom        DISTANCIA_CENTRE_PROPOSAT1'
     '.             CENTRE2                    ID_CENTRE_PROPOSAT2Codi       ID_CENTRE_PROPOSAT2Nom        ID_CENTRE_PROPOSAT2Nom        DISTANCIA_CENTRE_PROPOSAT2'
     '.             CENTRE3                    ID_CENTRE_PROPOSAT3Codi       ID_CENTRE_PROPOSAT3Nom        ID_CENTRE_PROPOSAT3Nom        DISTANCIA_CENTRE_PROPOSAT3'
@@ -1059,7 +1059,7 @@ div[data-v-d1615be0] {
   margin: 10px 5px;
 }
 
-.loadData[data-v-6e4fbb7f] {
+.loadData[data-v-67407b37] {
   box-sizing: border-box;
   height: calc(100% - 30px);
   border: 4px dashed var(--neutral-tertiary, #a19f9d);
@@ -1070,18 +1070,18 @@ div[data-v-d1615be0] {
   align-items: center;
   justify-content: center;
 }
-.loadData label[data-v-6e4fbb7f] {
+.loadData label[data-v-67407b37] {
   pointer-events: none;
   user-select: none;
 }
-.dragging[data-v-6e4fbb7f] {
+.dragging[data-v-67407b37] {
   border-color: var(--theme-tertiary, #71afe5);
   color: var(--theme-tertiary, #71afe5);
 }
-.formFile[data-v-6e4fbb7f] {
+.formFile[data-v-67407b37] {
   display: none;
 }
-.base[data-v-6e4fbb7f] {
+.base[data-v-67407b37] {
   box-sizing: border-box;
   overflow: auto;
   margin: 0;
